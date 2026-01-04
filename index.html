@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Aldrin Palima Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand me-auto" href="#">adin</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero position-relative">
+  <img src="images/hero_bg.gif" class="hero-gif" alt="Hero Background">
+    
+     <div class="container text-center hero-content">
+    <img src="images/1x1.jfif" alt="Aldrin Profile" class="profile-img mb-4">
+    <h1 class="display-4">Hi, I'm <span>Aldrin</span></h1>
+    <p class="lead">Aspiring Web Developer | Freelancer</p>
+    <a href="#project" class="btn btn-warning btn-lg mt-3">View My Work</a>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- LEFT: Text -->
+      <div class="col-md-6 text-left">
+        <h1 class="hello-text">Hello, I'm</h1>
+        <h4 class="name-text">Aldrin Palima</h4>
+
+        <p class="about-text mt-3">
+          Aspiring IT professional with a strong interest in technology and innovation. 
+          Passionate about exploring new technologies, improving system efficiency, 
+          and solving technical problems. Eager to grow in a positive and professional 
+          environment that values collaboration, innovation, and continuous skill development 
+          in critical thinking, digital literacy, and problem-solving.
+        </p>
+        <a href="cv/PALIMA - CV.pdf"
+            class="btn btn-outline-light mt-4"
+            target="_blank"
+            rel="noopener noreferrer">
+            Download CV
+        </a>
+      </div>
+
+      <!-- RIGHT: Image -->
+      <div class="col-md-6 text-center">
+        <img src="images/gradpic.jfif" alt="Aldrin Palima" class="about-img">
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="row text-center justify-content-center">
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/html_logo.png" alt="HTML5" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/css_logo.png" alt="CSS3" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/bootstrap_logo.png" alt="Bootstrap" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/flutter_logo.png" alt="Flutter" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/js_logo.png" alt="JavaScript" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/php_logo.png" alt="PHP" class="skill-logo">
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <img src="images/sql_logo.png" alt="MySQL" class="skill-logo">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="project" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Capstone Project</h2>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+
+        <!-- Project Panel -->
+        <div class="card project-card h-100" data-bs-toggle="modal" data-bs-target="#projectModal">
+          <img src="capstone_pics/homepage.png" class="card-img-top" alt="Capstone Project">
+
+          <div class="card-body text-center">
+            <h5 class="card-title">
+              Web-Based Archiving System
+            </h5>
+            <p class="card-text">
+              Registrar's Office – City College of Tagaytay
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Project Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-header">
+        <h5 class="modal-title">
+          Web-Based Archiving System
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Carousel -->
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="capstone_pics/homepage.png" class="d-block w-100" alt="Project Image 1">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/dashboard.PNG" class="d-block w-100" alt="Project Image 2">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/listofstuds.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/uploadstudsdocus.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/recent document uploads.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/checklist.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/reports.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+            <div class="carousel-item">
+              <img src="capstone_pics/printreport.PNG" class="d-block w-100" alt="Project Image 3">
+            </div>
+
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <!-- Description -->
+        <p class="mt-4">
+          This system digitizes and organizes student records for the
+          Registrar’s Office, improving efficiency, security, and accessibility
+          of academic documents.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="text-center contact-info">
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:palimaaldrinmendoza@gmail.com">palimaaldrinmendoza@gmail.com</a>
+      </p>
+
+      <p>
+        <strong>Contact Number:</strong>
+        <a href="tel:+639123456789">+63 956 320 3947</a>
+      </p>
+
+      <div class="social-links mt-4">
+        <a href="https://www.facebook.com/aldrin.mendoza.palima/" target="_blank">Facebook</a> |
+        <a href="https://www.linkedin.com/in/aldrin-palima-890590292/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Aldrin Palima | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
